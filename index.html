@@ -6,32 +6,87 @@
     <meta name="description" content="Paola Manjarrez's WDD 130 course home page">
     <meta name="author" content="Paola Manjarrez">
     <title>Paola Manjarrez | WDD 130</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+        footer {
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .box {
+            margin: 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            background-color: #eee;
+            color: #000;
+        }
+        img.profile {
+            float: right;
+            margin: 10px;
+        }
+        aside {
+            position: relative;
+        }
+        aside h2 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
             <a href="#">Home</a>
-            <a href="wwr/" target="_blank">Rafting Site</a>
-            <a href="wwr/site-plan-rafting.html" target="_blank">Rafting Site Plan</a>
+            <a href="wwr/">Rafting Site</a>
+            <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
             <a href="https://linkedin.com" target="_blank">LinkedIn</a>
             <a href="https://facebook.com" target="_blank">Facebook</a>
         </nav>
     </header>
     <main>
-        <h1>Paola Manjarrez | WDD 130</h1>
-        <img src="image.png" alt="Hello, my name is Paola Manjarrez" width="200" style="float: right;">
-        <p>Hello! I am Paola Manjarrez, I am 22 years old and I am from Panama. I am a future engineer with an overflowing passion for reading and technology. I love exploring the world of painting, immersing myself in fascinating books, and staying up to date with advances in technology and robotics.</p>
-
-        <ul class="box">
-            <li><a href="https://www.churchofjesuschrist.org/temples/list?lang=eng" target="_blank">Temple 1</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/list?lang=eng" target="_blank">Temple 2</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/list?lang=eng" target="_blank">Temple 3</a></li>
-        </ul>
-    </main>
+            <h1>Paola Manjarrez | WDD 130</h1>
+            <img src="pictures/image.png" alt="Hello, my name is Paola Manjarrez" width="200" style="float: right;">
+            <p>Hello! I am Paola Manjarrez, I am 22 years old and I am from Panama. I am a future engineer with an overflowing passion for reading and technology. I love exploring the world of painting, immersing myself in fascinating books, and staying up to date with advances in technology and robotics.</p>
+        
+            <aside>
+                <h2>Panama</h2>
+                <img src="pictures/panama.jpg" alt="Panama landscape">
+                <p>Panama is a country located in Central America, known for its canal connecting the Atlantic and Pacific Oceans.</p>
+            </aside>
+        
+            <ul class="box">
+                <li><a href="https://www.churchofjesuschrist.org/temples/list?lang=eng" target="_blank">Temple 1</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/list?lang=eng" target="_blank">Temple 2</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/list?lang=eng" target="_blank">Temple 3</a></li>
+            </ul>
+        </main>
     <footer>
         <p>🦾 ©Paola Manjarrez 🦾 Panama City, Panama</p>
     </footer>
-    <!-- Last modified: 2024-06-27 -->
 </body>
 </html>
