@@ -1,0 +1,33 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class selector */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+img {
+    float: right;
+    margin-left: 20px; 
+}
+
+/* Aside positioning */
+aside {
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px;
+}
