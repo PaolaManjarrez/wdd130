@@ -43,7 +43,7 @@ aside p {
 /* Style for the image inside the aside */
 aside img {
     width: 100%;
-    max-width: 300px; /* Set a maximum width */
+    height: auto; 
     display: block; /* Prevent space below the image */
-    margin-bottom: 10px; /* Bottom space */
+
 }
