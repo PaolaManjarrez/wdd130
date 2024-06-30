@@ -3,131 +3,131 @@
 
 /* Define CSS Variables */
 :root {
-    --primary-color: #396e94;
-    --secondary-color: #e7c24f;
-    --accent1-color: #a43312;
-    --accent2-color: #381d2a;
-    --header-font: 'Roboto', sans-serif;
-    --paragraph-font: 'Open Sans', sans-serif;
-    --nav-bg-color: #ffffff;
-    --nav-link-color: #396e94;
-    --nav-link-hover-color: #e7c24f;
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
+  --header-font: 'Roboto', sans-serif;
+  --paragraph-font: 'Open Sans', sans-serif;
+  --nav-bg-color: #ffffff;
+  --nav-link-color: #396e94;
+  --nav-link-hover-color: #e7c24f;
 }
 
-/* Body Style */
+/* Global Styles */
 body {
-    font-family: var(--paragraph-font);
-    max-width: 1200px;
-    padding: 20px;
-    margin: 0 auto;
+  font-family: var(--paragraph-font);
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 /* Header Styles */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary-color);
-    color: #fff;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
 }
 
-#logo {
-    height: 50px;
+header #logo {
+  height: 50px;
 }
 
-nav a {
-    color: var(--nav-link-color);
-    text-decoration: none;
-    margin: 0 10px;
+header nav ul li a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  margin: 0 10px;
 }
 
-nav a:hover {
-    color: var(--nav-link-hover-color);
+header nav ul li a:hover {
+  color: var(--nav-link-hover-color);
 }
 
 /* Main Content Styles */
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
-.hero {
-    position: relative;
-    margin-bottom: 20px; /* Add margin to separate sections */
+main .hero {
+  position: relative;
+  margin-bottom: 20px;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-    display: block;
+main .hero img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+main .hero h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
 
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+main .hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
 
-.hero article img {
-    float: right;
-    margin-left: 10px;
+main .hero article img {
+  float: right;
+  margin-left: 10px;
 }
 
 /* Section Styles */
 section {
-    margin-bottom: 20px; /* Add margin to separate sections */
+  margin-bottom: 20px;
 }
 
 section h2 {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 section p {
-    color: var(--accent1-color);
+  color: var(--accent1-color);
 }
 
 section img {
-    width: 100%; /* Ensure images fill their containers */
-    height: auto;
-    margin-bottom: 10px; /* Add margin between images */
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 /* Footer Styles */
 footer {
-    background-color: var(--secondary-color);
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px; /* Add margin to separate footer from main content */
+  background-color: var(--secondary-color);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 footer a {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 footer a img {
-    height: 20px;
-    width: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 footer a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-/* Other Styles */
+/* Header and Footer Font Styles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--header-font);
+  font-family: var(--header-font);
 }
 
