@@ -11,11 +11,13 @@
 <body>
     <header>
         <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/Picture1.jpg" alt="Rafting Site Logo" id="logo">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Trips</a>
-            <a href="#">Contact Us</a>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Trips</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -26,26 +28,43 @@
             </article>
         </div>
 
-        <section>
+        <section aria-label="History Section">
             <h2>History</h2>
             <p>Our company was founded in 1998 with the mission of providing thrilling outdoor adventures.</p>
         </section>
         
-        <section>
+        <section aria-label="Adventure Section">
             <h2>Adventure Awaits You</h2>
-            <img src="adventure1.jpg" alt="Adventure 1">
-            <img src="adventure2.jpg" alt="Adventure 2">
-            <img src="adventure3.jpg" alt="Adventure 3">
-            <img src="adventure4.jpg" alt="Adventure 4">
-            <img src="adventure5.jpg" alt="Adventure 5">
+            <figure>
+                <img src="adventure1.jpg" alt="Adventure 1">
+                <figcaption>Adventure 1</figcaption>
+            </figure>
+            <figure>
+                <img src="adventure2.jpg" alt="Adventure 2">
+                <figcaption>Adventure 2</figcaption>
+            </figure>
+            <figure>
+                <img src="adventure3.jpg" alt="Adventure 3">
+                <figcaption>Adventure 3</figcaption>
+            </figure>
+            <figure>
+                <img src="adventure4.jpg" alt="Adventure 4">
+                <figcaption>Adventure 4</figcaption>
+            </figure>
+            <figure>
+                <img src="adventure5.jpg" alt="Adventure 5">
+                <figcaption>Adventure 5</figcaption>
+            </figure>
         </section>
     </main>
 
     <footer>
-        <nav>
-            <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/018/930/698/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="Facebook"></a>
-            <a href="#"><img src="https://logos-world.net/wp-content/uploads/2020/04/Twitter-Symbol.png" alt="Twitter"></a>
-            <a href="#"><img src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-6.png" alt="Instagram"></a>
+        <nav aria-label="Social Media Navigation">
+            <ul>
+                <li><a href="#"><img src="https://static.vecteezy.com/system/resources/previews/018/930/698/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="https://logos-world.net/wp-content/uploads/2020/04/Twitter-Symbol.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-6.png" alt="Instagram"></a></li>
+            </ul>
         </nav>
         <p>🦾 ©Paola Manjarrez 🦾 Panama City, Panama</p>
     </footer>
