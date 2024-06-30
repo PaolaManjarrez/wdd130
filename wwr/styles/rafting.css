@@ -36,10 +36,20 @@ header #logo {
   height: 50px;
 }
 
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
 header nav ul li a {
   color: var(--nav-link-color);
   text-decoration: none;
-  margin: 0 10px;
 }
 
 header nav ul li a:hover {
@@ -56,33 +66,14 @@ main .hero {
   margin-bottom: 20px;
 }
 
-main .hero img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 main .hero h1 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--primary-color);
   padding: 10px;
+  background-color: var(--secondary-color);
 }
 
 main .hero article {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-}
-
-main .hero article img {
-  float: right;
-  margin-left: 10px;
+  color: var(--accent2-color);
 }
 
 /* Section Styles */
@@ -98,10 +89,25 @@ section p {
   color: var(--accent1-color);
 }
 
-section img {
+section .adventures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+section .adventures figure {
+  flex: 1;
+  min-width: 200px;
+}
+
+section .adventures img {
   width: 100%;
   height: auto;
-  margin-bottom: 10px;
+}
+
+section .adventures figcaption {
+  text-align: center;
+  font-weight: bold;
 }
 
 /* Footer Styles */
@@ -130,4 +136,5 @@ footer a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--header-font);
 }
+
 
