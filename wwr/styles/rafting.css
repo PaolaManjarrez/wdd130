@@ -47,8 +47,13 @@ nav a:hover {
 }
 
 /* Main Content Styles */
+main {
+    padding: 20px;
+}
+
 .hero {
     position: relative;
+    margin-bottom: 20px; /* Add margin to separate sections */
 }
 
 .hero img {
@@ -82,7 +87,7 @@ nav a:hover {
 
 /* Section Styles */
 section {
-    margin: 20px 0;
+    margin-bottom: 20px; /* Add margin to separate sections */
 }
 
 section h2 {
@@ -94,8 +99,9 @@ section p {
 }
 
 section img {
-    width: 18%;
-    margin: 1%;
+    width: 100%; /* Ensure images fill their containers */
+    height: auto;
+    margin-bottom: 10px; /* Add margin between images */
 }
 
 /* Footer Styles */
@@ -104,6 +110,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+    margin-top: 20px; /* Add margin to separate footer from main content */
 }
 
 footer a {
@@ -123,3 +130,4 @@ footer a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--header-font);
 }
+
