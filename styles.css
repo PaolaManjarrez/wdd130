@@ -1,5 +1,5 @@
 /* Reset some default styling */
-body, h1, p, ul, nav, footer {
+body, h1, h2, p, ul, nav, footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +17,7 @@ header, main, footer {
 
 header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #003366;
     padding: 1em;
 }
@@ -36,8 +36,15 @@ header nav a:hover {
 main {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     padding: 1em;
+}
+
+.left-column {
+    width: 40%;
+}
+
+.right-column {
+    width: 55%;
 }
 
 main h1 {
@@ -46,34 +53,36 @@ main h1 {
 }
 
 main img.profile-image {
+    width: 200px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-top: 10px;
 }
 
-main aside {
-    max-width: 200px;
-    margin-left: 20px;
-}
-
-main aside img {
+.left-column img {
     width: 100%;
 }
 
-ul.box {
-    list-style-type: none;
-    margin-top: 20px;
+.left-column p {
+    font-size: 14px;
+    margin-top: 10px;
 }
 
-ul.box li {
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+ul li {
     margin-bottom: 10px;
 }
 
-ul.box a {
+ul a {
     color: #003366;
     text-decoration: none;
 }
 
-ul.box a: hover {
+ul a:hover {
     text-decoration: underline;
 }
 
@@ -83,13 +92,7 @@ footer {
     text-align: center;
     padding: 1em;
     margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
-
-/* Flexbox for main content */
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
