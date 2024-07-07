@@ -1,5 +1,5 @@
-/* Style for header and footer */
-header, .grid, footer {
+/* Style for header, footer, and grid */
+header, footer, .grid {
   max-width: 840px;
   margin: 0 auto;
 }
